@@ -1,0 +1,334 @@
+@import 'mixin.scss';
+
+.main {
+    margin-bottom: 75px;
+    overflow: hidden;
+    header {
+        background-color: #0299ff;
+        @include paddingTop(40px, 5px);
+        overflow: hidden;
+
+        .find {
+            width: 345px;
+            background-color: #fff;
+            border-radius: 50px;
+            @include center;
+            input {
+                border: none;
+                line-height: 38px;
+                font-size: 17px;
+                text-align: center;
+            }           
+        }
+        ul {
+            padding-top: 10px;
+            overflow: hidden;
+            li {
+                float: left;
+                color: #fff;
+                padding-left: 7px;
+            }
+        }
+    }
+    .content {
+        overflow: hidden;
+        .foodMenu {
+                background-color: #fff;           
+                .list {
+                padding-bottom: 35px;
+                &:nth-child(2) {
+                    display: none;
+                }
+                ul {
+                    overflow: hidden;
+                    li {
+                        width: 25%;
+                        float: left;
+                        a {
+                            color: #666;
+                            display: block;
+                            padding-top: 80px;
+                            text-align: center;
+                            @include backgroundType('../images/0.png');
+                            background-position: center;
+                        }
+                    }
+                }
+            }
+            .newUser {
+                display: block;
+                width: 335px;
+                margin: 0 auto;
+                padding-bottom: 17px;
+                img {
+                    width: 100%;
+                }                                
+            }
+        }
+        .favourableMenu {
+            background-color: #fff;
+            overflow: hidden;
+            @include marginTop(10px, 10px);                      
+            ul {
+                li {
+                    width: 50%;
+                    border-bottom: 1px solid #999;
+                    border-right: 1px solid #999;
+                    margin-bottom: -1px;
+                    float: left;
+                    padding: 10px;
+                    box-sizing: border-box;                 
+                    p {
+                        color: #999;
+                        float: left;
+                        padding-top: 5px;
+                        b {
+                            display: block;
+                            font-size: 18px;
+                            color: #111;
+                        }
+                    }
+                    a {
+                        display: block;
+                        float: right;
+                        img {
+                            width: 52px;
+                        }
+                    }
+                }
+            }
+        }
+        .choose {
+            background-color: #fff;
+            color: #000;
+            overflow: hidden;
+            padding-left: 11px;
+            .title {
+                text-align: center;
+                position: relative;
+                p {
+                    @include paddingTop(15px, 15px);
+                }
+                a {
+                    color: #666;
+                    position: absolute;
+                    top: 15px;
+                    right: 5px;
+                }
+            }
+            .list {
+                ul {
+                    li {
+                        width: 25%;
+                        float: left;
+                        text-align: center;
+                        padding-bottom: 18px;
+                        font-size: 15px;
+                        img {
+                            width: 60px;
+                        }
+                        p {
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                            overflow: hidden;
+                            padding-top: 5px;
+                            margin-bottom: 5px;
+                        }
+                        span {
+                            font-size: 12px;
+                            color: #0299ff;
+                            border: 1px solid #0299ff;
+                            border-radius: 6px;
+                            padding: 2px 7px;
+                        }
+                    }
+                }
+            }
+        }
+        .teMai {
+            background-color: #fff;
+            overflow: hidden;
+            position: relative;
+            @include marginTop(10px, 10px);
+            padding-left: 11px;
+            padding-bottom: 15px;            
+            .title {
+                p {
+                    line-height: 35px;
+                    span {
+                        font-size: 14px;
+                        padding-left: 13px;
+                    }
+                }
+                a {
+                    position: absolute;
+                    top: 6px;
+                    right: 5px;
+                    font-size: 14px;
+                }
+            }
+            ul {
+                li {
+                    width: 25%;
+                    float: left;
+                    img {
+                        width: 88px;
+                    }
+                    p {
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        font-size: 13px;
+                        &.price {
+                            color: #f55020;
+                        }
+                        span {
+                            text-decoration: line-through;
+                            color: #999;
+                            padding-left: 5px;
+                        }
+                    }
+                }
+            }
+        }
+        .coupon {
+            background-color: #fff;
+            overflow: hidden;
+            ul {
+                li {
+                    width: 50%;
+                    float: left;
+                    padding-top: 12px;
+                    padding-bottom: 15px;
+                    p {
+                        float: left;
+                        padding-left: 10px;
+                        span {
+                            display: block;
+                            color: #999;
+                            font-size: 13px;
+                            padding-top: 5px;
+                        }
+                    }
+                    img {
+                        width: 60px;
+                        float: right;
+                        padding-right: 10px;
+                    }
+                } 
+            }
+        }
+        .shop {
+            background-color: #fff;
+            overflow: hidden;
+            @include marginTop(10px, 10px);
+            padding-left: 11px;
+            color: #666;
+            .title {
+                line-height: 40px;
+            }
+            .list {
+                border-top: 1px solid #ddd;
+                padding-top: 15px;
+                img {
+                    width: 60px;
+                    float:left;
+                    padding-right: 10px;
+                }
+                .text {
+                    font-size: 12px;
+                    .shopContent {
+                        border-bottom: 1px dashed #999;
+                        padding-bottom: 7px;
+                        .shopName {
+                            span {
+                                &.brand {
+                                    background-color: #ffc523;
+                                    padding-left: 5px;
+                                    padding-right: 5px;
+                                    border-radius: 3px;
+                                }
+                                &.name {
+                                    font-size: 18px;
+                                    color: #111;
+                                }
+                                &.piao {                                        
+                                    border: 1px solid #666;
+                                    border-radius: 3px;
+                                    padding-left: 3px;
+                                    padding-right: 3px;
+                                    margin-left: 65px;
+                                }
+                            }
+                        }
+                        .price {
+                            p {
+                                span {
+                                    float: left;
+                                }
+                            }
+                        }
+                    }
+                    .activity {
+                        @include paddingTop(10px, 10px);
+                        p {
+                            padding-bottom: 5px;
+                            span {
+                                color: #fff;
+                                background-color: #71bb3e;
+                                @include paddingLeft(3px, 3px);
+                                border-radius: 3px;
+                                margin-right: 7px;
+                            }
+                            &.fullCut {
+                                span {
+                                    background-color: #f56e72;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+footer {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    @include paddingTop(5px, 5px);
+    .list {
+        ul {
+            overflow: hidden;
+            li {
+                width: 25%;
+                float: left;;
+                a {
+                    display: block;
+                    padding-top: 34px;
+                    text-align: center;
+                    @include backgroundType('../images/e.png', no-repeat, 30px);
+                    background-position: center 0;
+                    color: #999;
+                }
+                &:nth-child(2) {
+                    a {
+                        background-image: url('../../images/findIcon.png');
+                    }
+                }
+                &:nth-child(3) {
+                        a {
+                            background-image: url('../../images/orderIcon.png');
+                        }                    
+                }
+                 &:nth-child(4) {
+                        a {
+                            background-image: url('../../images/meIcon.png');
+                        }                    
+                }
+            }
+        }
+    }
+}

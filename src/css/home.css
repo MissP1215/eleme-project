@@ -1,0 +1,251 @@
+.main {
+  margin-bottom: 75px;
+  overflow: hidden; }
+  .main header {
+    background-color: #0299ff;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    overflow: hidden; }
+    .main header .find {
+      width: 345px;
+      background-color: #fff;
+      border-radius: 50px;
+      text-align: center;
+      margin: 0 auto; }
+      .main header .find input {
+        border: none;
+        line-height: 38px;
+        font-size: 17px;
+        text-align: center; }
+    .main header ul {
+      padding-top: 10px;
+      overflow: hidden; }
+      .main header ul li {
+        float: left;
+        color: #fff;
+        padding-left: 7px; }
+  .main .content {
+    overflow: hidden; }
+    .main .content .foodMenu {
+      background-color: #fff; }
+      .main .content .foodMenu .list {
+        padding-bottom: 35px; }
+        .main .content .foodMenu .list:nth-child(2) {
+          display: none; }
+        .main .content .foodMenu .list ul {
+          overflow: hidden; }
+          .main .content .foodMenu .list ul li {
+            width: 25%;
+            float: left; }
+            .main .content .foodMenu .list ul li a {
+              color: #666;
+              display: block;
+              padding-top: 80px;
+              text-align: center;
+              background-image: url("../images/0.png");
+              background-repeat: no-repeat;
+              background-size: 50%;
+              background-position: center; }
+      .main .content .foodMenu .newUser {
+        display: block;
+        width: 335px;
+        margin: 0 auto;
+        padding-bottom: 17px; }
+        .main .content .foodMenu .newUser img {
+          width: 100%; }
+    .main .content .favourableMenu {
+      background-color: #fff;
+      overflow: hidden;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+      .main .content .favourableMenu ul li {
+        width: 50%;
+        border-bottom: 1px solid #999;
+        border-right: 1px solid #999;
+        margin-bottom: -1px;
+        float: left;
+        padding: 10px;
+        box-sizing: border-box; }
+        .main .content .favourableMenu ul li p {
+          color: #999;
+          float: left;
+          padding-top: 5px; }
+          .main .content .favourableMenu ul li p b {
+            display: block;
+            font-size: 18px;
+            color: #111; }
+        .main .content .favourableMenu ul li a {
+          display: block;
+          float: right; }
+          .main .content .favourableMenu ul li a img {
+            width: 52px; }
+    .main .content .choose {
+      background-color: #fff;
+      color: #000;
+      overflow: hidden;
+      padding-left: 11px; }
+      .main .content .choose .title {
+        text-align: center;
+        position: relative; }
+        .main .content .choose .title p {
+          padding-top: 15px;
+          padding-bottom: 15px; }
+        .main .content .choose .title a {
+          color: #666;
+          position: absolute;
+          top: 15px;
+          right: 5px; }
+      .main .content .choose .list ul li {
+        width: 25%;
+        float: left;
+        text-align: center;
+        padding-bottom: 18px;
+        font-size: 15px; }
+        .main .content .choose .list ul li img {
+          width: 60px; }
+        .main .content .choose .list ul li p {
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          padding-top: 5px;
+          margin-bottom: 5px; }
+        .main .content .choose .list ul li span {
+          font-size: 12px;
+          color: #0299ff;
+          border: 1px solid #0299ff;
+          border-radius: 6px;
+          padding: 2px 7px; }
+    .main .content .teMai {
+      background-color: #fff;
+      overflow: hidden;
+      position: relative;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding-left: 11px;
+      padding-bottom: 15px; }
+      .main .content .teMai .title p {
+        line-height: 35px; }
+        .main .content .teMai .title p span {
+          font-size: 14px;
+          padding-left: 13px; }
+      .main .content .teMai .title a {
+        position: absolute;
+        top: 6px;
+        right: 5px;
+        font-size: 14px; }
+      .main .content .teMai ul li {
+        width: 25%;
+        float: left; }
+        .main .content .teMai ul li img {
+          width: 88px; }
+        .main .content .teMai ul li p {
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          font-size: 13px; }
+          .main .content .teMai ul li p.price {
+            color: #f55020; }
+          .main .content .teMai ul li p span {
+            text-decoration: line-through;
+            color: #999;
+            padding-left: 5px; }
+    .main .content .coupon {
+      background-color: #fff;
+      overflow: hidden; }
+      .main .content .coupon ul li {
+        width: 50%;
+        float: left;
+        padding-top: 12px;
+        padding-bottom: 15px; }
+        .main .content .coupon ul li p {
+          float: left;
+          padding-left: 10px; }
+          .main .content .coupon ul li p span {
+            display: block;
+            color: #999;
+            font-size: 13px;
+            padding-top: 5px; }
+        .main .content .coupon ul li img {
+          width: 60px;
+          float: right;
+          padding-right: 10px; }
+    .main .content .shop {
+      background-color: #fff;
+      overflow: hidden;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      padding-left: 11px;
+      color: #666; }
+      .main .content .shop .title {
+        line-height: 40px; }
+      .main .content .shop .list {
+        border-top: 1px solid #ddd;
+        padding-top: 15px; }
+        .main .content .shop .list img {
+          width: 60px;
+          float: left;
+          padding-right: 10px; }
+        .main .content .shop .list .text {
+          font-size: 12px; }
+          .main .content .shop .list .text .shopContent {
+            border-bottom: 1px dashed #999;
+            padding-bottom: 7px; }
+            .main .content .shop .list .text .shopContent .shopName span.brand {
+              background-color: #ffc523;
+              padding-left: 5px;
+              padding-right: 5px;
+              border-radius: 3px; }
+            .main .content .shop .list .text .shopContent .shopName span.name {
+              font-size: 18px;
+              color: #111; }
+            .main .content .shop .list .text .shopContent .shopName span.piao {
+              border: 1px solid #666;
+              border-radius: 3px;
+              padding-left: 3px;
+              padding-right: 3px;
+              margin-left: 65px; }
+            .main .content .shop .list .text .shopContent .price p span {
+              float: left; }
+          .main .content .shop .list .text .activity {
+            padding-top: 10px;
+            padding-bottom: 10px; }
+            .main .content .shop .list .text .activity p {
+              padding-bottom: 5px; }
+              .main .content .shop .list .text .activity p span {
+                color: #fff;
+                background-color: #71bb3e;
+                padding-left: 3px;
+                padding-right: 3px;
+                border-radius: 3px;
+                margin-right: 7px; }
+              .main .content .shop .list .text .activity p.fullCut span {
+                background-color: #f56e72; }
+
+footer {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+  footer .list ul {
+    overflow: hidden; }
+    footer .list ul li {
+      width: 25%;
+      float: left; }
+      footer .list ul li a {
+        display: block;
+        padding-top: 34px;
+        text-align: center;
+        background-image: url("../images/e.png");
+        background-repeat: no-repeat;
+        background-size: 30px;
+        background-position: center 0;
+        color: #999; }
+      footer .list ul li:nth-child(2) a {
+        background-image: url("../../images/findIcon.png"); }
+      footer .list ul li:nth-child(3) a {
+        background-image: url("../../images/orderIcon.png"); }
+      footer .list ul li:nth-child(4) a {
+        background-image: url("../../images/meIcon.png"); }

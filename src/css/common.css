@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    user-select: none;
+    -webkit-user-select: none;
+}
+input, textarea {
+    appearance: none;
+    -webkit-appearance: none;
+}
+img, a, input, button, textarea  {
+    -webkit-tap-highlight-color: transparent;
+}
+a {
+    text-decoration: none;
+}
+ul li {
+    list-style-type: none;
+}
+.main {
+    width: 100%;
+    background-color: #ddd;
+}
+.border {
+    display: block;
+}
+.border::after{
+    content: '';
+    height: 10px;
+    float: right;
+    display: block;
+    border-right: 1px solid #666;
+    margin: 5px 4px 0;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.over-hid {
+    overflow: hidden;
+}
